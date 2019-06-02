@@ -17,7 +17,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
 	// MARK: - Properties
-	// Constants
+	// - Constants
 	// Cell ID
 	let cellId = "HomeCell"
 	// Header view height
@@ -25,10 +25,10 @@ class HomeViewController: UIViewController {
 	
 	
 	// MARK: - Views
-	// Header view
+	// - Header view
 	private lazy var headerView = HeaderView()
 	
-	// Table view
+	// - Table view
 	private lazy var homeTable: UITableView = {
 		let table = UITableView(frame: .zero, style: .plain)
 		table.showsVerticalScrollIndicator = false
