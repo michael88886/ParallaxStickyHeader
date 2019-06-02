@@ -46,11 +46,7 @@ extension HomeViewController {
 	// MARK: - Override functions
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		
-		
-		view.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
-		
+		// Scroll table view to top
 		let index = IndexPath(row: 0, section: 0)
 		homeTable.scrollToRow(at: index, at: .middle, animated: false)
 	}
